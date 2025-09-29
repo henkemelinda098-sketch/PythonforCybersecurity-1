@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # A simple "Hello World" script in python
-# Created 
+# Created by Melinda 9/29
 
+#ask user for a names
+name=input("What is your name?")
 
-print('Hello World')
+#print hello to the user
+print('Hello'+name)

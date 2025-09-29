@@ -4,4 +4,6 @@ Bananas
 Eggs
 
 Vegetables
+rice
+apples
 
