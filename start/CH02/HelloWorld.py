@@ -6,4 +6,13 @@
 name=input("What is your name?")
 
 #print hello to the user
-print('Hello'+name)
+print('Hello '+name)
+print( "Hello {0}". format(name) )
+print( f"Hello {name}")
+print ("Hello", name)
+message ="Hello " + name
+print (message )
+
+
+print("Hello","there","ed", sep="$", end="blah" \
+      
