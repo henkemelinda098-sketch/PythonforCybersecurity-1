@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+# stretch yourself-is it even?
+#By Melinda Henke 10/12
+
+#ask the user for a number
+num = int(input("Enter a number: "))
+
+#check if the bumber is even
+if num % 2 == 0:
+    print ("That num is EVEN.")
+else:
+    print ("That num is NOT even.")
