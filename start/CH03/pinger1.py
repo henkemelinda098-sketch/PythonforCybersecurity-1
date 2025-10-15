@@ -18,7 +18,7 @@ def ping_address (ip_address):
 
     #Execute ping command
     exit_code= os.system ( ping_cmd)    
-    return_exit_code
+    return exit_code
 
 #Assign Ip to variable 
 ip_prefix = "192.168.0."
