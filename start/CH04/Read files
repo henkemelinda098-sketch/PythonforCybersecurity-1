@@ -1,0 +1,14 @@
+import os
+
+#get current directory
+script_path = os.path.abspath(__file__)
+script_dir = os.path.dirname (script_path)
+
+#build path to hackme.txt
+file_path = os.path.join (script_dir, "hackme.txt")
+
+#read and display file contents
+with open (file_path, "r") as f:
+    print ("Here is someone to hack-information\n")
+    for line in f:
+        print (line.strip())
