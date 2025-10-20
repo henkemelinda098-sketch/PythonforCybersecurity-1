@@ -8,7 +8,7 @@ import os
 script_path = os.path.abspath (__file__)
 script_dir = os.path.dirname (script_path)
 # build file path
-file_path = os.path.join (script_dir, "testfile1.txt")
+file_path = os.path.join (script_dir, "testfile1f.txt")
 
 
 # create file object
