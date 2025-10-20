@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+#Script to check if a number is divisble by a given divisor
+#By Melinda Henke
+
+#Def the function
+def is_divisble (number, divisor):
+    return number % divisor == 0
+
+# Promopt user for input
+number = int (input("What is the number: "))
+divisor = int (input("What is the divisor:  "))
+
+#Check divisibility and report 
+if is_divisble (number, divisor):
+    print (f"{number} is divisible by {divisor}")
+else:
+    print (f"{number} is NOT divisible by {divisor}")
