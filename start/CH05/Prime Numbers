@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+# stretch yourself-Prime Numbers?
+#By Melinda Henke 10/26
+
+num = int (input ("Enter a number: "))
+
+# Prime numbers must be greater than 1
+if num > 1:
+    for i in range (2, num):
+        if num % i == 0:
+            print (f"{num} is NOT prime")
+            break
+    else:
+        print (f"{num} is prime")
+else:
+    print (f"{num} is NOT prime")
