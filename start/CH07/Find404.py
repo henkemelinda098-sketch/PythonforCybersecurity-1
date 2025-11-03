@@ -9,8 +9,9 @@ log_file = input ("Which file to analyze? ")
 # get current directory
 script_path = os.path.abspath (__file__)
 script_dir = os.path.dirname (script_path)
-# build file path
-file_path = os.path.join (script_dir, "testfile1f.txt")
+# build filepath
+file_path = os.path.join (script_dir, log_file)
+
 
 # open log file
 f = open (file_path, "r")
@@ -22,8 +23,10 @@ while True:
         break
     # look for 404
     if "404" in line:
-        # print line
-        print(line)
+        if "administrator" in line:
+            if "%" in line:
+                # print line
+                print(line)
 
 # Close file
 f.close()
